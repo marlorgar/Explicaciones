@@ -8,14 +8,15 @@ Permite crear entradas con un sencillo bloc de notas y la utilización de Markdo
 Permite olvidarte de buscar un hosting adecuado y que cumpla con tus necesidades ya que puedes alojarlo en Github de manera totalmente gratuita.
 Es altamente personalizable, de manera mucho mas intuitiva que blogs creadas con otros sistemas como WordPress, Joomla, etc.
 Puedes utilizar tu propio dominio. Esto es especialmente importante ya que si tienes un blog en wordpress puedes migrarlo y mantener tu dominio.
-###Inconvenientes Pero no todo es tan bonito ya que como todo sistema tiene sus inconvenientes y es que Jekyll no está pensando para usar una base de datos para almacenar las entradas, páginas, etc. Cada entrada y página es un archivo de texto en cuya cabecera se encuentra información en formato YAML indicando el título, categorias, descripción etc que es interpretado por Jekyll.
+###Inconvenientes
+Pero no todo es tan bonito ya que como todo sistema tiene sus inconvenientes y es que Jekyll no está pensando para usar una base de datos para almacenar las entradas, páginas, etc. Cada entrada y página es un archivo de texto en cuya cabecera se encuentra información en formato YAML indicando el título, categorias, descripción etc que es interpretado por Jekyll.
 
 ###Instalación Dejémnos de tanta charla y vayamos a lo que verdaderamente importa, ¿esto como se instala?. Esta pregunta tiene una respuesta muy sencilla.
 
 #####1. Instalación de Ruby En primer lugar necesitamos instalar Ruby (si ya lo tienes disponible continua con el paso 2). Primero comprobaremos que no disponemos ya de una versión:
 
 
-$ apt-get install ruby-dev
+`$ apt-get install ruby-dev`
 #####2. Intalación de Jekyll Ahora necesitamos instalar Jekyll en nuestro ordenador. Esto nos servirá para poder ver y modificar nuestra web de manera local.
 
 
