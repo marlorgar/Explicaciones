@@ -20,7 +20,7 @@ Pero no todo es tan bonito ya que como todo sistema tiene sus inconvenientes y e
 #####2. Intalación de Jekyll Ahora necesitamos instalar Jekyll en nuestro ordenador. Esto nos servirá para poder ver y modificar nuestra web de manera local.
 
 
-$ gem install jekyll
+`$ gem install jekyll`
 Ya tenemos nuestra máquina preparada.
 
 #####3. Jekyll Bootstrap Personalmente yo he preferido utilizar Jekyll Bootstrap para este tutorial puesto que permite instalar temas, crear páginas y post desde linea de comandos. En primer lugar crearemos un nuevo repositorio con la siguiente estructura:
@@ -28,10 +28,10 @@ Ya tenemos nuestra máquina preparada.
 USUARIO.github.io
 Una vez hemos creado el proyecto lo clonaremos en nuestro ordenador y lo subiremos:
 
-$ git clone https://github.com/plusjade/jekyll-bootstrap.git USUARIO.github.com
+`$ git clone https://github.com/plusjade/jekyll-bootstrap.git USUARIO.github.com
 $ cd USERNAME.github.com
 $ git remote set-url origin git@github.com:USUARIO/USUARIO.github.com.git
-$ git push origin master
+$ git push origin master`
 Ya está. Ya tenemos nuestro blog en Jekyll creado. Puedes comprobarlo tu mismo introduciendo en tu navegador la dirección que has utilizado para tu proyecto: http://USUARIO.github.io/
 
 #####4. Archivo de configuración Jekyll dispone de un archivo de configuración llamado _config.yml. En el puedes encontrar las diferentes opciones de tu blog (titulo, descripción, autor, versión, tipos de enlaces, etc.).
@@ -41,7 +41,7 @@ Como puedes ver Jekyll tiene también multitud de temas creados por otros usuari
 #####5. Modificarlo, creación de post y páginas Ahora llega la parte bonita. Para modificar el blog solo necesitas escribir el siguiente comando en una terminal. Para ello nos situamos en la carpeta donde tengamos el proyecto y escribrimos:
 
 
-$ jekyll serve
+`$ jekyll serve`
 Ahora nos vamos al navegador y utilizaremos esta dirección para ver los cambios:
 
 
@@ -71,12 +71,12 @@ $ rake theme:install name="THEME-NAME"
 Yo se que tu sabes mucho de github pero te voy a dejar aquí los comandos para subir el proyecto por si hoy tienes un mal día y no lo recuerdas:
 
 
-$ git add --all
-$ git commit -m "Actualizando el blog"
-$ git push
+$ git add --all  
+$ git commit -m "Actualizando el blog"  
+$ git push  
 #####6. Dominio propio Como ya dije antes, podemos usar nuestro propio dominio. Para ello haremos uso de ALIAS y un archivo llamado CNAME. En primer lugar crearemos en el directorio raiz del blog un archivo llamado CNAME que contendrá el nombre del dominio. En mi caso es el siguiente:
 
-franexposito.es
+
 Después nos dirigiremos a nuestro proveedor y crearemos un ALIAS que apunte a la dirección IP de la página. Para obtener esta información basta con realizar un ping al dominio de nuestro proyecto:
 
 ping USUARIO.github.io
